@@ -1,0 +1,34 @@
+{%extends "dhis_health/html/base.html" %}
+{% load staticfiles %}
+{%block content%}
+                    <!-- column -->
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">Organization Unit Table</h4>
+                                
+                                <div class="table-responsive">
+                                {% if org_items %}
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Id</th>
+                                                <th>Organisation Name</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for i,j in org_items %}
+                                            <tr>
+                                                <td>{{i}}</td>
+                                                <td>{{j}}</td>
+                                            </tr>
+                                        {% endfor %}    
+                                        </tbody>
+                                    </table>
+                                {% endif %}    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+{% endblock %}                    
+            
