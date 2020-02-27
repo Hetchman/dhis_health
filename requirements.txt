@@ -73,7 +73,7 @@ pycparser==2.18
 pygdal==2.2.1.5
 python-dateutil==2.6.1
 python-decouple==3.1
-python-gnupg==0.4.1
+python-gnupg==0.4.4
 python-memcached==1.59
 python-mimeparse==1.6.0
 python-openid==2.2.5
