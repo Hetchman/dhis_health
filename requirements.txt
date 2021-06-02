@@ -102,7 +102,7 @@ ua-parser==0.8.0
 unicodecsv==0.14.1
 Unidecode==0.4.19
 uritemplate==3.0.0
-urllib3==1.22
+urllib3==1.26.5
 user-agents==1.1.0
 uWSGI==2.0.17
 vine==1.1.4
